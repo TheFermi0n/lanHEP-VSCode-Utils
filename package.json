@@ -4,7 +4,7 @@
   "description": "Syntax highlighting for lanHEP",
   "version": "0.0.1",
   "author": "Riasat Sheikh <riasat.sheikh.423@s.kyushu-u.ac.jp>",
-  "publisher": "KyudaiSoron",
+  "publisher": "thefermi0n",
   "engines": {
     "vscode": "^1.95.0"
   },
