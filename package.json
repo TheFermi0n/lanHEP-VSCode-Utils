@@ -1,0 +1,40 @@
+{
+  "name": "lanhep-vscode-utils",
+  "displayName": "lanHEP VSCode Utils",
+  "description": "Syntax highlighting for lanHEP",
+  "version": "0.0.1",
+  "author": "Riasat Sheikh <riasat.sheikh.423@s.kyushu-u.ac.jp>",
+  "publisher": "KyudaiSoron",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thefermi0n/lanHEP-VSCode-Utils.git"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "lhp",
+        "aliases": [
+          "lanHEP"
+        ],
+        "extensions": [
+          "lhp",
+          "lhep"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "lhp",
+        "scopeName": "source.lhp",
+        "path": "./syntaxes/lhp.tmGrammar.json"
+      }
+    ]
+  }
+}
