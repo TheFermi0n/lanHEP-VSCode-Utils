@@ -19,7 +19,7 @@ Future plan:
 
 ## Installtion
 
-This extension is published at the [VSCode marketplace](https://marketplace.visualstudio.com/manage/publishers/thefermi0n/extensions/lanhep-vscode-utils/hub).
+This extension is published at the [VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=thefermi0n.lanhep-vscode-utils).
 
 ## Known Issues
 
