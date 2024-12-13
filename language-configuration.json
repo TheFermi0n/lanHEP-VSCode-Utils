@@ -26,5 +26,21 @@
     ["(", ")"],
     ["\"", "\""],
     ["'", "'"]
+  ],
+  "indentationRules": {
+    "increaseIndentPattern": "^\\s*(do_if|do_else_if|do_else|vector|spinor|scalar|parameter|lterm|alias|use|keys|model)\\b.*$",
+    "decreaseIndentPattern": "^\\s*(end_if|end_else|end_do|\\.).*$",
+    "indentNextLinePattern": "^\\s*(vector|spinor|scalar|parameter)\\b.*$",
+    "unIndentedLinePattern": "^\\s*(\\.|quit|CheckHerm|SetAngle).*?$"
+  },
+  "onEnterRules": [
+    {
+      "beforeText": "^.*\\.$",
+      "action": { "indent": "outdent" }
+    }
+    // {
+    //   "beforeText": "^\\s*(do_if|do_else_if|do_else|vector|spinor|scalar|parameter|lterm|alias|use|keys|model)\\b.*$",
+    //   "action": { "indent": "indent" }
+    // }
   ]
 }
